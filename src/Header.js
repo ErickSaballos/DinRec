@@ -10,14 +10,14 @@ function Header() {
                 </a>  
                 <div className='navegador'>
                     <nav className='navbar'>
-                        <a href='#'>Inicio</a>
-                        <a href='#'>Blog</a>
-                        <a href='#'>Transferencia</a>
-                        <a href='#'>Contactanos</a>
-                        <a href='#'>Encuentranos</a>
+                        <a href='./inicio.js'>Inicio</a>
+                        <a href='./blog'>Blog</a>
+                        <a href='./transferencia'>Transferencia</a>
+                        <a href='./contactanos'>Contactanos</a>
+                        <a href='./encuentranos'>Encuentranos</a>
                     </nav>
                 </div>
-                <button className='login'>Login</button>
+                <button className='login' href='./Login'>Login</button>
                 <button className='signup'>Sign Up</button>
             </header>
         </div>
